@@ -1,0 +1,20 @@
+.courses {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.heading {
+  font-weight: 600;
+  font-size: 52px;
+  text-transform: uppercase;
+}
+.contnet {
+  color: var(--description);
+  padding: 0 18vw;
+  font-weight: 400;
+  font-size: 22px;
+  text-align: center;
+}
+.courseSlider {
+  background-color: aquamarine;
+}

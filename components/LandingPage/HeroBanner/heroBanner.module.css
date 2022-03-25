@@ -1,0 +1,141 @@
+.heroBanner {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+.left {
+  width: 50%;
+  padding-top: 25vh;
+  padding-left: 40px;
+  z-index: +1;
+}
+.head {
+  font-family: "Quicksand", sans-serif;
+  font-size: 56px;
+}
+.content {
+  font-weight: 400;
+  font-size: 22px;
+  color: #4d4d4d;
+  padding-right: 20px;
+}
+.bannerBtn {
+  border: none;
+  padding: 15px 40px;
+  border-radius: 25px;
+  background-color: var(--primary);
+  box-shadow: 0px 4px 6px -4px rgba(24, 39, 75, 0.12);
+  text-transform: uppercase;
+  color: white;
+  font-size: 16px;
+  margin-top: 20px;
+}
+.right {
+  width: 50%;
+  position: relative;
+}
+.circle {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  top: 0;
+}
+.people {
+  position: absolute;
+  width: 105%;
+  right: 0;
+  top: 120px;
+  /* background-color: antiquewhite; */
+}
+
+@media screen and (max-width: 1440px) {
+  .head {
+    font-size: 45px;
+  }
+  .people {
+    width: 100%;
+  }
+  .content {
+    font-size: 20px;
+  }
+  .circle {
+    width: 110%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .left {
+    padding-top: 20vh;
+  }
+  .head {
+    font-size: 40px;
+  }
+  .people {
+    width: 100%;
+  }
+  .content {
+    font-size: 19px;
+  }
+  .circle {
+    width: 110%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .left {
+    padding-top: 15vh;
+    padding-left: 20px;
+  }
+  .head {
+    font-size: 28px;
+  }
+  .people {
+    width: 100%;
+  }
+  .content {
+    font-size: 15px;
+  }
+  .circle {
+    width: 110%;
+  }
+  .bannerBtn {
+    padding: 10px 25px;
+    font-size: 13px;
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .heroBanner {
+    flex-direction: column;
+    align-items: center;
+  }
+  .left {
+    padding-top: 10vh;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .right {
+    width: 95%;
+  }
+  .head {
+    font-size: 28px;
+    text-align: center;
+  }
+  .people {
+    width: 70%;
+    top: -0px;
+    right: 30px;
+  }
+  .content {
+    font-size: 15px;
+    text-align: center;
+  }
+  .circle {
+    width: 110%;
+    top: -380px;
+  }
+  .bannerBtn {
+    font-size: 12px;
+    margin-top: 0px;
+  }
+}

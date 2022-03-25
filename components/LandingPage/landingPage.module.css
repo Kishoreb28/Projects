@@ -1,0 +1,12 @@
+.landingPage {
+  width: 94vw;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  background-color: white;
+}
+@media screen and (max-width: 1440px) {
+  .landingPage {
+    width: 100vw;
+  }
+}
