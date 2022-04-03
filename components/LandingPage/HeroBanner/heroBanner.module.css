@@ -78,6 +78,10 @@
   .circle {
     width: 110%;
   }
+  .heroBanner {
+    width: 100%;
+    height: 600px;
+  }
 }
 @media screen and (max-width: 700px) {
   .left {
@@ -100,6 +104,10 @@
     padding: 10px 25px;
     font-size: 13px;
     margin-top: 10px;
+  }
+  .heroBanner {
+    width: 100%;
+    height: 500px;
   }
 }
 @media screen and (max-width: 550px) {
@@ -137,5 +145,9 @@
   .bannerBtn {
     font-size: 12px;
     margin-top: 0px;
+  }
+  .heroBanner {
+    width: 100%;
+    height: 600px;
   }
 }

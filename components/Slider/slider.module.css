@@ -1,0 +1,23 @@
+.carouselButtonGroup {
+  position: absolute;
+  width: 85vw;
+  top: 40%;
+  left: -80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.dot {
+  /* bottom: -30px; */
+  background-color: rgb(211, 211, 211);
+  border: none;
+  margin: 5px;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  /* overflow: hidden; */
+}
+.dotActive {
+  background-color: var(--primary);
+  border: 1px solid rgb(48, 48, 48);
+}

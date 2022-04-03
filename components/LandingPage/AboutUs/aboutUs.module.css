@@ -1,0 +1,85 @@
+.AboutUs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+.heading {
+  font-weight: 600;
+  font-size: 52px;
+  text-transform: uppercase;
+}
+.contnet {
+  color: var(--description);
+  padding: 0 8vw;
+  font-weight: 400;
+  font-size: 22px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.ourMissionVision {
+  display: flex;
+  justify-content: space-around;
+  /* align-items: center; */
+}
+.left {
+  width: 25%;
+  font-family: "Poppins", sans-serif;
+  color: #182f43;
+}
+.right {
+  width: 50%;
+  min-height: 220px;
+}
+.accordian {
+  width: 90%;
+  padding: 0;
+  border-bottom: 1px solid rgb(206, 206, 206);
+}
+.accordianHead {
+  background-color: rgb(255, 255, 255);
+  border-bottom: 1px solid red;
+}
+.accordianContent {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+}
+.item {
+  background: white;
+}
+.downArrow {
+  color: var(--primary);
+}
+
+@media screen and (max-width: 1050px) {
+  .left {
+    width: 35%;
+  }
+  .right {
+    width: 50%;
+  }
+  .accordian {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 564px) {
+  .contnet {
+    padding: 0 1vw;
+    font-weight: 400;
+    font-size: 18px;
+  }
+  .heading {
+    margin-top: 50px;
+    font-weight: 600;
+    font-size: 32px;
+  }
+  .ourMissionVision {
+    flex-direction: column;
+  }
+  .left {
+    width: 100%;
+  }
+  .right {
+    width: 100%;
+  }
+}
